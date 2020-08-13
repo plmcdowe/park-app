@@ -1,0 +1,12 @@
+{
+    "eventName": "count",
+    "url": "http://pmcdowell.info/count2020.php",
+    "requestType": "POST",
+    "data": {
+    	"count": "{{PARTICLE_EVENT_VALUE}}"
+    },
+	"query": {
+    	"count": "{{PARTICLE_EVENT_VALUE}}"
+	},
+    "mydevices": true
+}
